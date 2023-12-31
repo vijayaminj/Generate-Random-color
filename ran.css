@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgba(215, 64, 64, 0.664);
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#btn{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
